@@ -4,8 +4,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
   background-color: #ffffff;
+  margin: 0;
   font-family: 'Inconsolata', monospace;
 }
 
@@ -16,12 +16,8 @@ body {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  width: 100%; /* Stretch to full width */
-  min-height: 100vh; /* Stretch box vertically */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 250px;
+  height: 100vh; /* Make the box insanely long */
   font-family: 'Inconsolata', monospace;
 }
 
@@ -31,14 +27,11 @@ body {
   font-size: 24px;
   margin-bottom: 10px;
   text-transform: capitalize;
-  color: #f9f8f3; /* Updated font color */
 }
 
 /* Date and Time Styling */
 .greeting-date, .greeting-time {
   font-size: 18px;
   margin: 5px 0;
-  font-weight: bold; /* Bold Inconsolata font */
   text-transform: uppercase;
-  color: #f9f8f3; /* Updated font color */
 }

@@ -31,7 +31,7 @@ body {
   font-family: 'Yeseva One', serif;
   font-size: 24px;
   margin-bottom: 5px;
-  text-transform: capitalize;
+  text-transform: uppercase; /* Full uppercase for the title */
 }
 
 /* Date and Time Styling */

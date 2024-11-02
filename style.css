@@ -9,20 +9,21 @@ body {
   font-family: 'Inconsolata', monospace;
 }
 
-/* Wide Horizontal Greeting Box Styling */
+/* Wide Greeting Box Styling */
 .greeting-box {
   background-color: #0D0D0D;
-  color: #F9F8F3; /* Updated font color */
+  color: #F9F8F3;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  width: 80vw; /* 80% of viewport width */
-  height: 150px; /* Set a fixed height */
-  font-family: 'Inconsolata', monospace;
+  width: 800px; /* Set a fixed width */
+  max-width: 90vw; /* Ensures it fits on smaller screens */
+  height: 150px; /* Fixed height */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Inconsolata', monospace;
 }
 
 /* Greeting Title Styling */

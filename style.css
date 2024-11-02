@@ -16,16 +16,20 @@ body {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  width: 80%; /* Wider horizontal box */
-  max-width: 1000px; /* Limit max width */
+  width: 80vw; /* 80% of viewport width */
+  height: 150px; /* Set a fixed height */
   font-family: 'Inconsolata', monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Greeting Title Styling */
 .greeting-title {
   font-family: 'Yeseva One', serif;
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   text-transform: capitalize;
 }
 

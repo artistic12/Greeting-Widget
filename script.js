@@ -22,17 +22,17 @@ function updateDate() {
   document.getElementById('date').textContent = now.toLocaleDateString('en-US', options);
 }
 
-// Function to update the time every minute in 12-hour format with AM/PM
+// Function to update the time every minute in 12-hour format
 function updateTime() {
   const now = new Date();
   let hours = now.getHours();
   const minutes = String(now.getMinutes()).padStart(2, '0');
-  const amPm = hours >= 12 ? 'PM' : 'AM';
+  const ampm = hours >= 12 ? 'PM' : 'AM';
+  
+  hours = hours % 12;
+  hours = hours ? hours : 12; // Convert hour '0' to '12' for 12-hour format
 
-  // Convert to 12-hour format
-  hours = hours % 12 || 12;
-
-  document.getElementById('time').textContent = `${hours}:${minutes} ${amPm}`;
+  document.getElementById('time').textContent = `${hours}:${minutes} ${ampm}`;
 }
 
 // Initial updates and interval setup for live time update

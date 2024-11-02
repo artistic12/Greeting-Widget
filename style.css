@@ -38,5 +38,5 @@ body {
 .greeting-date, .greeting-time {
   font-size: 18px;
   margin: 5px 0;
-  text-transform: uppercase;
+  text-transform: uppercase !important;
 }

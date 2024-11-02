@@ -1,0 +1,36 @@
+/* General Styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* Greeting Box Styling */
+.greeting-box {
+  background-color: #0D0D0D;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* Greeting Title Styling */
+.greeting-title {
+  font-family: 'Yeseva One', serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+/* Date and Time Styling */
+.greeting-date, .greeting-time {
+  font-size: 18px;
+  margin: 5px 0;
+  text-transform: uppercase;
+}

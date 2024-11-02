@@ -9,15 +9,15 @@ body {
   font-family: 'Inconsolata', monospace;
 }
 
-/* Wide and Narrow Greeting Box Styling */
+/* Extra Wide and Narrow Greeting Box Styling */
 .greeting-box {
   background-color: #0D0D0D;
   color: #F9F8F3;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  width: 90vw; /* Take up most of the viewport width */
-  max-width: 1400px; /* Limit max width for very large screens */
+  width: 95vw; /* Take up 95% of the viewport width */
+  max-width: 1600px; /* Limit max width for very large screens */
   height: 100px; /* Shorter height for a narrow look */
   display: flex;
   flex-direction: column;

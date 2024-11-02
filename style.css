@@ -9,15 +9,15 @@ body {
   font-family: 'Inconsolata', monospace;
 }
 
-/* Full-width Greeting Box Styling */
+/* Wide Horizontal Greeting Box Styling */
 .greeting-box {
   background-color: #0D0D0D;
   color: #F9F8F3; /* Updated font color */
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  width: 90%; /* Almost full width */
-  max-width: 1200px; /* Limit max width on larger screens */
+  width: 80%; /* Wider horizontal box */
+  max-width: 1000px; /* Limit max width */
   font-family: 'Inconsolata', monospace;
 }
 

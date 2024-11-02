@@ -12,11 +12,11 @@ body {
 /* Greeting Box Styling */
 .greeting-box {
   background-color: #0D0D0D;
-  color: white;
+  color: #f9f8f3; /* Updated font color */
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  width: 250px;
+  width: 350px; /* Increased width for a longer box */
   font-family: 'Inconsolata', monospace;
 }
 
@@ -31,6 +31,8 @@ body {
 /* Date and Time Styling */
 .greeting-date, .greeting-time {
   font-size: 18px;
+  font-weight: bold; /* Set Inconsolata to bold */
   margin: 5px 0;
   text-transform: uppercase;
+  color: #f9f8f3; /* Updated font color */
 }

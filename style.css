@@ -9,15 +9,15 @@ body {
   font-family: 'Inconsolata', monospace;
 }
 
-/* Greeting Box Styling */
+/* Full-width Greeting Box Styling */
 .greeting-box {
   background-color: #0D0D0D;
-  color: #f9f8f3; /* Updated font color */
+  color: #F9F8F3; /* Updated font color */
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  width: 250px;
-  height: 100vh; /* Make the box insanely long */
+  width: 90%; /* Almost full width */
+  max-width: 1200px; /* Limit max width on larger screens */
   font-family: 'Inconsolata', monospace;
 }
 
